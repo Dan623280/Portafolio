@@ -1,0 +1,86 @@
+/* ESTILO GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* MENÚ */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+/* LINKS GENERALES */
+a {
+    color: #333; /* ← CAMBIO IMPORTANTE */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* LINKS DEL HEADER */
+header a {
+    color: white;
+}
+
+/* EFECTO HOVER */
+a:hover {
+    color: #00c3ff;
+}
+
+/* SECCIONES */
+section {
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+form, ul, p{  
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* FORMULARIO */
+input {
+  width: 100%; /* Ocupa el ancho total */
+  box-sizing: border-box; /* Incluye padding y borde en el 100% */
+  padding: 10px; /* Ejemplo de espacio interno */
+  margin-bottom: 15px; /* Ejemplo de espacio entre inputs */
+}
+
+/* BOTÓN */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
